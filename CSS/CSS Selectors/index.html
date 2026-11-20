@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: yellow;
+        }
+        /* Class Selector */
+        .red
+        {
+            background-color: red;
+        }
+        /* ID Selector */
+        #green{
+            background-color: green;
+        }
+        /* Child Selectors */
+        div > p{
+            color: blue;
+            background-color:burlywood;
+        }
+        /* Decendant Selector */
+        article > p{
+            color: aliceblue;
+            background-color: rgb(122, 48, 48);
+        }
+        /* Universal Selector */
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: peru;
+        }
+        a:link{
+            color: blue;
+        }
+        a:active{
+            background-color: crimson;
+        }
+        a:hover{
+            background-color:deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        I am a Div
+    </div>
+    <div>
+        I an Another div
+    </div>
+    <!-- <div class="red">
+        Example Div
+    </div> -->
+    <!-- <div>
+        Example of Another Div
+    </div> -->
+    <div id="green">
+        I am ID Selector
+    </div>
+    <div>
+        <p>
+            I am a Para in Div
+        </p>
+    </div>
+        <article>
+            <p>This A Para in article</p>
+        </article>
+        <a href="https://www.youtube.com/">Go To Youtube</a>
+        <a href="https://www.hotstar.com/in/home">Jio Hotstar</a>
+        <a href="https://github.com/">GitHub</a>
+
+</body>
+</html>
